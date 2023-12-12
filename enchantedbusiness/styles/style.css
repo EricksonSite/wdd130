@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -6,14 +6,13 @@ body, h1, h2, p {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9e3d7; /* Soft peach background */
-    color: #5e4138; /* Darker coral text color */
+    background-color: #f9e3d7; 
+    color: #5e4138; 
 }
 
 header {
-    background-color: #ffaf9e; /* Light coral header */
-    color: #5e4138; /* Darker coral text color */
-    padding: 10px 0;
+    background-color: #ffaf9e; 
+    color: #5e4138; 
     text-align: center;
     border-radius: 10px 10px 0 0;
 }
@@ -23,7 +22,7 @@ header h1 {
 }
 
 nav {
-    background-color: #ffaf9e; /* Light coral navigation bar */
+    background-color: #ffaf9e;
     text-align: center;
     padding: 10px 0;
 }
@@ -44,27 +43,27 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #5e4138; /* Darker coral text color */
+    color: #5e4138; 
     font-weight: bold;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ff6600; /* Change to orange on hover */
+    color: #ff6600;
 }
 
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* White content background */
+    background-color: #fff; 
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    text-align: center; /* Center all text within the container */
+    text-align: center;
 }
 
 .container h2 {
@@ -83,9 +82,9 @@ nav a:hover {
 
 
 .image-section img {
-    width: 100%; /* Set the width to 100% to make them responsive */
-    max-width: 400px; /* Set a maximum width for larger screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -94,7 +93,7 @@ nav a:hover {
 
 
 .package-section {
-    margin-top: 30px; /* Adjust margin to give space above "Choose Your Packages" */
+    margin-top: 30px; 
 }
 
 .package-section h2 {
@@ -111,8 +110,8 @@ nav a:hover {
 .package {
     width: 100%;
     padding: 20px;
-    background-color: #ffaf9e; /* Light coral package background */
-    color: #5e4138; /* Darker coral text color */
+    background-color: #ffaf9e; 
+    color: #5e4138;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -120,14 +119,14 @@ nav a:hover {
 }
 
 .product-image {
-    max-width: 100%; /* Makes sure the image doesn't exceed its container width */
-    height: auto;    /* Maintains aspect ratio */
-    /* You can also add other styles like margin, border, etc. test */
+    max-width: 100%; 
+    height: auto;   
+    
 }
 
 footer {
-    background-color: #ffaf9e; /* Light coral footer */
-    color: #5e4138; /* Darker coral text color */
+    background-color: #ffaf9e; 
+    color: #5e4138; 
     text-align: center;
     padding: 10px 0;
     border-radius: 0 0 10px 10px;
@@ -137,20 +136,18 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px; /* Add spacing between sections */
+    margin-bottom: 40px; 
 }
 
 .about-section .image-section,
 .about-section .about-text {
-    width: 48%; /* Adjust the width as needed */
+    width: 48%; 
 }
 
 .profile-image,
 .workshop-image {
-    width: 100%; /* Make sure the images fill their container width */
-    max-width: 100%; /* Ensure responsiveness */
+    width: 100%;
+    max-width: 100%; 
     border: 1px solid #ccc;
     border-radius: 10px;
 }
-
-/* You can adjust the margin, padding, or other styles as needed */
