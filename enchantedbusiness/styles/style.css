@@ -132,3 +132,25 @@ footer {
     padding: 10px 0;
     border-radius: 0 0 10px 10px;
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px; /* Add spacing between sections */
+}
+
+.about-section .image-section,
+.about-section .about-text {
+    width: 48%; /* Adjust the width as needed */
+}
+
+.profile-image,
+.workshop-image {
+    width: 100%; /* Make sure the images fill their container width */
+    max-width: 100%; /* Ensure responsiveness */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* You can adjust the margin, padding, or other styles as needed */
