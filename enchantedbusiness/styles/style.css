@@ -1,0 +1,134 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9e3d7; /* Soft peach background */
+    color: #5e4138; /* Darker coral text color */
+}
+
+header {
+    background-color: #ffaf9e; /* Light coral header */
+    color: #5e4138; /* Darker coral text color */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #ffaf9e; /* Light coral navigation bar */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5e4138; /* Darker coral text color */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600; /* Change to orange on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center; /* Center all text within the container */
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.image-section, .contact-section {
+    text-align: center;
+}
+
+
+.image-section img {
+    width: 100%; /* Set the width to 100% to make them responsive */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.package-section {
+    margin-top: 30px; /* Adjust margin to give space above "Choose Your Packages" */
+}
+
+.package-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.package-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffaf9e; /* Light coral package background */
+    color: #5e4138; /* Darker coral text color */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 100%; /* Makes sure the image doesn't exceed its container width */
+    height: auto;    /* Maintains aspect ratio */
+    /* You can also add other styles like margin, border, etc. test */
+}
+
+footer {
+    background-color: #ffaf9e; /* Light coral footer */
+    color: #5e4138; /* Darker coral text color */
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
